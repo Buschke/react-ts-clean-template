@@ -1,4 +1,5 @@
 import { assert, expect, test } from 'vitest'
+import { describe, it } from 'vitest'
 
 // Edit an assertion and save to see HMR in action
 
@@ -18,4 +19,10 @@ test('JSON', () => {
 
   expect(output).eq('{"foo":"hello","bar":"world"}')
   assert.deepEqual(JSON.parse(output), input, 'matches original')
+})
+
+describe('Simple App test', () => {
+  it('Run: is 3 3', () => {
+    expect(3).toBe(3)
+  })
 })

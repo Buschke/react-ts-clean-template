@@ -1,5 +1,19 @@
 import { assert, expect, test } from 'vitest'
 import { describe, it } from 'vitest'
+import App from '../App'
+import { render, screen, waitFor } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
+import '@testing-library/jest-dom'
+
+describe('App', () => {
+  it('Title is "App"', async () => {
+    render(<App title='Sven' />)
+    const button =  screen.getByTestId('button')
+    expect(button.textContent).toBe('Test')
+    userEvent.click(button)
+    await waitFor(() => expect(button.textContent).toBe('Tested'))
+  })
+})
 
 // Edit an assertion and save to see HMR in action
 

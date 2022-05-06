@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
 import './App.scss'
-import FirstComponent from './components/FirstComponent'
+import { FirstComponent } from './components/FirstComponent'
 
 const App: FC<{ title: string }> = ({title}) => {
   const [ testMe, setTestMe ] = useState<string>('Test')

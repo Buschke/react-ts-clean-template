@@ -5,10 +5,8 @@ interface FirstComponentProps {
   title: string
 }
 
-const FirstComponent: FC<FirstComponentProps> = ({title}) => {
+export const FirstComponent: FC<FirstComponentProps> = ({title}) => {
   return (
     <div className='FirstComponent'>FirstComponent {title}</div>
   )
 }
-
-export default FirstComponent

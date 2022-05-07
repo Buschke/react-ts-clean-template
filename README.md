@@ -4,4 +4,4 @@
 
 # With testing vitest
 
-# with snippets
+# with snippets and settings

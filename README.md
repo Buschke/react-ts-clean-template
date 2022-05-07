@@ -7,6 +7,8 @@
 # with snippets and settings
 
 
+----- snippets
+
 
 {
   "TagWrapper": {
@@ -104,7 +106,7 @@
 }
 
 
-------
+------ settings
 
 
 

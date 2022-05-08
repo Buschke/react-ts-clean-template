@@ -1,6 +1,6 @@
 :root {
   --maincol: rgba(220, 20, 60, 1);
-  --bgcol: rgba(220, 20, 60, 0.219);
+  --bgcol: rgba(220, 20, 60, 0.101);
 }
 
 @tailwind base;

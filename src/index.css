@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Actor&family=Advent+Pro&family=Alegreya&family=Almendra&family=Amiri&family=Amita&family=Arima+Madurai&family=Arizonia&family=Arya&family=Athiti&family=Average&family=BIZ+UDPGothic&family=Bai+Jamjuree&family=Berkshire+Swash&family=Bona+Nova&family=Cantora+One&family=Cardo&family=Chau+Philomene+One&family=Cherry+Cream+Soda&family=Cormorant+Garamond:wght@400;600&family=Cormorant+Infant:ital,wght@0,400;0,500;1,400&family=Covered+By+Your+Grace&family=Crimson+Pro&family=Doppio+One&family=Dorsa&family=Dosis&family=Dynalight&family=EB+Garamond&family=Economica&family=Elsie+Swash+Caps&family=Fira+Sans+Extra+Condensed&family=Fira+Sans:wght@400;900&family=Fondamento&family=Freckle+Face&family=Freehand&family=GFS+Didot&family=Georama&family=Grape+Nuts&family=Herr+Von+Muellerhoff&family=Hind&family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+Double+Pica&family=Indie+Flower&family=Inria+Sans&family=Istok+Web&family=Jura&family=Kalam&family=Kanit&family=Katibeh&family=Kodchasan&family=Lato:wght@100;400&family=Libre+Barcode+39&family=Libre+Barcode+39+Extended+Text&family=Life+Savers:wght@800&family=Literata:opsz@7..72&family=Lora&family=Luxurious+Script&family=Mansalva&family=Marmelad&family=Miniver&family=Mirza&family=Mitr&family=Mountains+of+Christmas&family=Mouse+Memoirs&family=Mukta&family=Mukta+Mahee&family=Mukta+Malar&family=Mukta+Vaani&family=News+Cycle&family=Nothing+You+Could+Do&family=Oregano&family=Over+the+Rainbow&family=PT+Sans&family=PT+Sans+Caption&family=PT+Sans+Narrow&family=Paprika&family=Petit+Formal+Script&family=Playfair+Display&family=Quattrocento+Sans&family=Raleway&family=Raleway+Dots&family=Ribeye&family=Risque&family=Roboto+Condensed&family=Roboto+Slab&family=Roboto:wght@100;400&family=Ropa+Sans&family=Rosario:wght@400;700&family=Rum+Raisin&family=Sahitya&family=Salsa&family=Sansita+Swashed&family=Share+Tech&family=Shippori+Mincho&family=Smooch+Sans&family=Sorts+Mill+Goudy&family=Style+Script&family=Syne+Tactile&family=Taviraj&family=Truculenta:opsz@12..72&family=UnifrakturCook&family=Vazirmatn&family=Voces&family=Vollkorn&family=Vujahday+Script&family=Yanone+Kaffeesatz&display=swap');
+
 :root {
   --maincol: rgba(220, 20, 60, 1);
   --bgcol: rgba(220, 20, 60, 0.101);
@@ -7,10 +9,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Actor&family=Advent+Pro&family=Alegreya&family=Almendra&family=Amiri&family=Amita&family=Arima+Madurai&family=Arizonia&family=Arya&family=Athiti&family=Average&family=BIZ+UDPGothic&family=Bai+Jamjuree&family=Berkshire+Swash&family=Bona+Nova&family=Cantora+One&family=Cardo&family=Chau+Philomene+One&family=Cherry+Cream+Soda&family=Cormorant+Garamond:wght@400;600&family=Cormorant+Infant:ital,wght@0,400;0,500;1,400&family=Covered+By+Your+Grace&family=Crimson+Pro&family=Doppio+One&family=Dorsa&family=Dosis&family=Dynalight&family=EB+Garamond&family=Economica&family=Elsie+Swash+Caps&family=Fira+Sans+Extra+Condensed&family=Fira+Sans:wght@400;900&family=Fondamento&family=Freckle+Face&family=Freehand&family=GFS+Didot&family=Georama&family=Grape+Nuts&family=Herr+Von+Muellerhoff&family=Hind&family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+Double+Pica&family=Indie+Flower&family=Inria+Sans&family=Istok+Web&family=Jura&family=Kalam&family=Kanit&family=Katibeh&family=Kodchasan&family=Lato:wght@100;400&family=Libre+Barcode+39&family=Libre+Barcode+39+Extended+Text&family=Life+Savers:wght@800&family=Literata:opsz@7..72&family=Lora&family=Luxurious+Script&family=Mansalva&family=Marmelad&family=Miniver&family=Mirza&family=Mitr&family=Mountains+of+Christmas&family=Mouse+Memoirs&family=Mukta&family=Mukta+Mahee&family=Mukta+Malar&family=Mukta+Vaani&family=News+Cycle&family=Nothing+You+Could+Do&family=Oregano&family=Over+the+Rainbow&family=PT+Sans&family=PT+Sans+Caption&family=PT+Sans+Narrow&family=Paprika&family=Petit+Formal+Script&family=Playfair+Display&family=Quattrocento+Sans&family=Raleway&family=Raleway+Dots&family=Ribeye&family=Risque&family=Roboto+Condensed&family=Roboto+Slab&family=Roboto:wght@100;400&family=Ropa+Sans&family=Rosario:wght@400;700&family=Rum+Raisin&family=Sahitya&family=Salsa&family=Sansita+Swashed&family=Share+Tech&family=Shippori+Mincho&family=Smooch+Sans&family=Sorts+Mill+Goudy&family=Style+Script&family=Syne+Tactile&family=Taviraj&family=Truculenta:opsz@12..72&family=UnifrakturCook&family=Vazirmatn&family=Voces&family=Vollkorn&family=Vujahday+Script&family=Yanone+Kaffeesatz&display=swap');
-
 body {
-  /* font-family: 'Abhaya Libre', serif; */
+  font-family: 'Abhaya Libre', serif;
   /* font-family: 'Actor', sans-serif; */
   /* font-family: 'Advent Pro', sans-serif; */
   /* font-family: 'Alegreya', serif; */
@@ -30,7 +30,7 @@ body {
   /* font-family: 'Cardo', serif; */
   /* font-family: 'Chau Philomene One', sans-serif; */
   /* font-family: 'Cherry Cream Soda', cursive; */
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
   /* font-family: 'Cormorant Infant', serif; */
   /* font-family: 'Covered By Your Grace', cursive; */
   /* font-family: 'Crimson Pro', serif; */

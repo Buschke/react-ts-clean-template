@@ -9,7 +9,6 @@
 
 ----- snippets
 
-
 {
   "TagWrapper": {
     "prefix": "_w",
@@ -108,8 +107,6 @@
 
 ------ settings
 
-
-
 {
   "editor.theme": "vs-dark",
   /**
@@ -172,7 +169,7 @@
    * Control the behavior and rendering of the minimap.
    */
   "editor.minimap": {
-    "enabled": false
+    "enabled": true
   },
   /**
    * Display overflow widgets as `fixed`.
@@ -198,7 +195,7 @@
    * Zoom the font in the editor when using the mouse wheel in combination with holding Ctrl.
    * Defaults to false.
    */
-  "editor.mouseWheelZoom": false,
+  "editor.mouseWheelZoom": true,
   /**
    * Control the cursor style, either 'block' or 'line'.
    * Defaults to 'line'.

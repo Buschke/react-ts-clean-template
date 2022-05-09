@@ -375,7 +375,7 @@
    * Enable highlighting of matching brackets.
    * Defaults to true.
    */
-  "editor.matchBrackets": true,
+  "editor.matchBrackets": "always",
   /**
    * Enable rendering of whitespace.
    * Defaults to none.
@@ -386,16 +386,6 @@
    * Defaults to false.
    */
   "editor.renderControlCharacters": false,
-  /**
-   * Enable rendering of indent guides.
-   * Defaults to true.
-   */
-  "editor.renderIndentGuides": true,
-  /**
-   * Enable highlighting of the active indent guide.
-   * Defaults to true.
-   */
-  "editor.highlightActiveIndentGuide": true,
   /**
    * Enable rendering of current line highlight.
    * Defaults to all.
@@ -428,5 +418,7 @@
   /**
    * Controls fading out of unused variables.
    */
-  "editor.showUnused": true
+  "editor.showUnused": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true
 }
